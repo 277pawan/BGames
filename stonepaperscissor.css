@@ -119,8 +119,7 @@ display:flex;
 
 margin:30px 110x;
 padding:0px;
-border:2px solid red;
-box-shadow:12px 10px gray;
+box-shadow:10x 10px gray;
 opacity:0.8;
 }
 .choice:hover{
