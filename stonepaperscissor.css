@@ -125,8 +125,7 @@ opacity:0.8;
 .choice:hover{
 opacity:1;
 cursor:pointer;
-background-color:red;
-border:3px inset red;
+background-color:gray;
 }
 @media screen and (max-width:600px)
 {
