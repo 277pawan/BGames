@@ -111,17 +111,17 @@ width:100px;
 .choices
 {
 
-margin-left:17%;
+margin-left:15%;
 display:flex;
 }
 .choice
 {
 
-margin:30px 99.3px;
+margin:30px 102x;
 padding:0px;
 border:2px solid red;
 box-shadow:12px 10px gray;
-opacity:0.89
+opacity:0.8;
 }
 .choice:hover{
 opacity:1;
