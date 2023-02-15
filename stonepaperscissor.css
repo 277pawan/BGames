@@ -1,0 +1,148 @@
+*{
+font-family:Arial Sans-serif;
+padding:0;
+margin:0;
+box-sizing:border-box
+}
+body
+{
+background-color:black;
+}
+header
+{
+background-color:white;
+padding:10px;
+}
+header >h1{
+text-align:center;
+font-family:Arial ,Sans-serif;
+font-size:40px;
+}
+.box1{
+padding :30px;
+margin:25px auto;
+width:200px;
+color:white;
+font-size:46px;
+font-family:arial;
+border:2px solid yellow;
+}
+
+
+.badge
+{
+background-color:white;
+color:black;
+font-size:40px;
+padding:2px 10px;
+font-family:arial, sans-serif;
+position:relative;
+}
+.u1
+{
+position:absolute;
+padding:1px;
+font-size:20px;
+font-family:arial, sans-serif;
+margin-left:-45px;
+animation: ping 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+@keyframes ping {
+  75%, 100% {
+    transform: scale(1.5);
+    opacity: 0.7;
+  }
+}
+.u2{
+position:absolute;
+padding:2px;
+font-size:20px;
+font-family:arial, sans-serif;
+animation: ping2 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+margin-left:147px;
+}
+@keyframes ping2 {
+  75%, 100% {
+    transform: scale(1.5);
+    opacity: 0.7;
+  }
+}
+.result{
+background-color:pink;
+border:2px solid black;
+width:800px;
+margin-left:26%;
+text-align:center;
+font-family:Arial ,Sans-serif;
+font-size:42px;
+cursor:pointer;
+}
+.overimage{
+display:none;
+height="700px";
+width="1600px";
+}
+@media screen and (max-width:600px)
+{
+.result{
+background-color:pink;
+border:2px solid black;
+height:45px;
+width:300px;
+margin-left:17%;
+text-align:left;
+font-family:Arial ,Sans-serif;
+font-size:20px;
+cursor:pointer;
+}
+}
+#overlay{
+display:none;
+}
+@media screen and (max-width:600px)
+{
+.overlay{
+display:none;
+height:100px;
+width:100px;
+}
+}
+.choices
+{
+
+margin-left:17%;
+display:flex;
+}
+.choice
+{
+
+margin:30px 98px;
+padding:0px;
+border:2px solid red;
+box-shadow:12px 10px gray;
+opacity:0.89
+}
+.choice:hover{
+opacity:1;
+cursor:pointer;
+background-color:red;
+border:3px inset red;
+}
+@media screen and (max-width:600px)
+{
+.choices
+{
+margin-left:12%;
+display:flow-root;
+}
+}
+
+
+.final{
+text-align:center;
+font-family:Arial ,Sans-serif;
+font-size:50px;
+margin-top:4%;
+color:white;
+
+}
