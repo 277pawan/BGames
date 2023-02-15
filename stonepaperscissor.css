@@ -90,7 +90,8 @@ border:2px solid black;
 height:45px;
 width:300px;
 margin-left:17%;
-text-align:left;
+text-align:center;
+border-radius:4%;
 font-family:Arial ,Sans-serif;
 font-size:20px;
 cursor:pointer;
@@ -116,7 +117,7 @@ display:flex;
 .choice
 {
 
-margin:30px 98px;
+margin:30px 99.3px;
 padding:0px;
 border:2px solid red;
 box-shadow:12px 10px gray;
