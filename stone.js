@@ -26,7 +26,7 @@ function win(userChoice,computerChoice)
 userScore++;
 userscore_span.innerHTML=userScore;
 computerscore_span.innerHTML= computerScore;
-result_p.innerHTML=converter(userChoice) +" beats "+ converter(computerChoice) +" <mark>You Win!</mark>";
+result_p.innerHTML=converter(userChoice) +" beats "+ converter(computerChoice) +" <mark>You Win🏆🏆</mark>";
 
 }
 
@@ -35,7 +35,7 @@ function lose(userChoice,computerChoice)
 computerScore++;
 computerscore_span.innerHTML= computerScore;
 userscore_span.innerHTML=userScore;
-result_p.innerHTML=converter(userChoice) +" gets beeted by "+ converter(computerChoice) +" You Lose!";
+result_p.innerHTML=converter(userChoice) +" gets beeted by "+ converter(computerChoice) +" You Lose🐵🐵";
 }
 function draw(userChoice,computerChoice)
 {
